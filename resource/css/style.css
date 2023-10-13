@@ -1,14 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    transition: .5s;
+
 }
 a{
     text-decoration: none;
 }
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+#navbar.scrolled {
+    background-color: white;
+    box-shadow: 0px -10px 20px black;
+}
+#navbar.scrolled a{
+    color: #E0B61B;
+}
+
+#navbar.scrolled a.button{
+    background-color: #E0B61B;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
 .header-content{
     width: 100%;
     position: fixed;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 .header-content nav{
     display: flex;   
@@ -19,7 +50,7 @@ a{
 .list-menu{
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 60px;
     justify-content: center;
     padding: 0 15%;
 }
@@ -30,6 +61,7 @@ a{
 }
 .header-content a.logo{
     font-size: 30px;
+    font-weight: 600;
 }
 .header-content a.button{
     background-color: white;
@@ -195,6 +227,6 @@ a{
 .section-3 h2{
     font-size: 50px;
     color: #E0B61B;
-    line-height: 80%;
+    line-height: 85%;
     margin-bottom: 5px ;
 }
