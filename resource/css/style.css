@@ -208,7 +208,7 @@ a{
     background-image: url(../image/bg-yellow2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 500px;
+    background-size: 450px;
 }
 .section-3 div.content-about{
     width: 50%;
@@ -229,4 +229,151 @@ a{
     color: #E0B61B;
     line-height: 85%;
     margin-bottom: 5px ;
+}
+
+footer{
+    background-color: #14292B;
+    color: white;
+    text-align: center;
+    padding: 100px 10%;
+    margin-top: 100px;
+}
+footer a{
+    color: #14292B;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+footer p{
+    margin: 50px 0;
+    font-size: 16px;
+}
+footer h2{
+    margin: 0;
+    font-size: 30px;
+}
+footer img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 685px){
+    .header-content nav{
+        width: 100%;
+    }
+    .header-content .content-border{
+        width: 0%;
+    }
+    .header-content .content-center{
+        width: 0%;
+    }
+    .section-1 a{
+        padding: 10px 25px;
+        font-size: 25px;
+    }
+    .list-menu{
+        display: none;
+    }
+    .header-content a.button{
+        display: none;
+    }
+
+    .section-1 h1{
+        font-size: 25px;
+    }
+    .section-1 p{
+        width: 100%;
+    }
+    
+    .section-1to2{
+        padding: 50px 10%;
+    }
+    
+    .section-1to2 .title-descrip{
+        padding-bottom: 50px;
+    }
+    
+    .section-1to2 .title-descrip h2{
+        font-size: 25px;
+        line-height: 90%;
+    }
+    
+    .section-1to2 .item{
+        padding: 20px 30px;
+    }
+    
+    .section-1to2 .item img{
+        width: 60%;
+    }
+    
+    .section-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 50px 10%;
+    }
+    .section-2 div.content-about{
+        width: 100%;
+    }
+    
+    .section-2 .content-about img{
+        width: 70%;
+        margin-top: 50px;
+    }
+    
+    .section-2 h2{
+        font-size: 50px;
+        color: #14292B;
+        margin-bottom: 50px;
+    }
+    .section-2 p{
+        text-align: justify;
+    }
+
+    .section-3{
+        padding: 50px 10%;
+        flex-direction: column;
+    }
+    .section-3 div.content-about{
+        width: 100%;
+    }
+    
+    .section-3 .content-about img{
+        width: 70%;
+    }
+    
+    .section-3 h2{
+        font-size: 30px;
+        color: #14292B;
+        line-height: 85%;
+        margin-bottom: 50px;
+    }
+    
+    .section-3 p{
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+
+    footer a{
+        color: #14292B;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    footer p{
+        margin: 50px 0;
+        font-size: 16px;
+    }
+    footer h2{
+        margin: 0;
+        font-size: 30px;
+    }
+    footer img{
+        width: 200px;
+        margin-bottom: 50px;
+    }
 }
